@@ -88,7 +88,6 @@ transformed_images, pred_corners, distortion_probs, extra_info = model(images)
 1. 使用可变形卷积需要确保安装了最新版的PyTorch和TorchVision
 2. 梯形分支的方向预测功能可用于后处理和结果分析
 3. 几何约束损失可通过在训练脚本中调整权重来控制其影响力
-4. 为获得最佳结果，建议使用ResNet50作为骨干网络
 
 ## 项目结构
 ```
